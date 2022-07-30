@@ -2,7 +2,7 @@
 
 Simple project template for Java and Kotlin.
 
-Template was built with IDE, like intellij, in mind.
+Template was built with intellij IDE in mind.
 
 Contents:
 
@@ -11,3 +11,5 @@ Contents:
 * Java
 * Kotlin
 * Spock
+* Spring
+* Lombok
