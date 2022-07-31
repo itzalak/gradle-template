@@ -1,6 +1,6 @@
-# Java Kotlin Gradle Template App
+# Kotlin Gradle Template App
 
-Simple project template for Java and Kotlin.
+Simple project template for Kotlin.
 
 Template was built with intellij IDE in mind.
 
@@ -8,8 +8,21 @@ Contents:
 
 * Gradle
 * Groovy
-* Java
 * Kotlin
 * Spock
 * Spring
-* Lombok
+* Postgres
+
+## Postgresql Docker
+
+To run the PostgreSQL docker image:
+
+```shell
+$ docker-compose up
+```
+
+To manually access the db:
+
+```shell
+$ psql -h localhost -p 5432 -d db -U username
+```
