@@ -8,7 +8,5 @@ import org.springframework.boot.runApplication
 class KotlinApplication
 
 fun main(args: Array<String>) {
-    runApplication<KotlinApplication>(*args) {
-        println("Hello world!")
-    }
+    runApplication<KotlinApplication>(*args) {}
 }

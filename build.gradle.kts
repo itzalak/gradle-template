@@ -26,6 +26,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
     implementation("org.postgresql:postgresql:42.4.0")
+    implementation("org.springdoc:springdoc-openapi:1.6.9")
+    implementation("org.springdoc:springdoc-openapi-kotlin:1.6.9")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
