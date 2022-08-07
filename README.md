@@ -1,6 +1,6 @@
-# Kotlin Gradle Template App
+# Gradle Template App
 
-Simple project template for Kotlin.
+Simple project template for Gradle projects.
 
 Template was built with intellij IDE in mind.
 
@@ -12,6 +12,7 @@ Contents:
 * Spock
 * Spring
 * Postgres
+* Swagger-Springdoc
 
 ## Postgresql Docker
 

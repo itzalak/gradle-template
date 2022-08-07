@@ -1,2 +1,2 @@
-rootProject.name = "java-kotlin-gradle-template"
+rootProject.name = "gradle-template"
 
