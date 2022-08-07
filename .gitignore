@@ -33,3 +33,6 @@ build
 
 # Gradle wrapper
 !gradle/wrapper/gradle-wrapper.jar
+
+# Docker postgres local db
+/pdb-data/
