@@ -9,9 +9,12 @@ spring:
         driver-class-name: org.postgresql.Driver
         maximum-pool-size: 3
 
+#https://springdoc.org/v2/#properties
 springdoc:
   api-docs:
     path: /api-docs
   swagger-ui:
     display-request-duration: true
-    path: /swagger-ui.html
+    path: /swagger-ui
+    filter: true
+  show-actuator: true

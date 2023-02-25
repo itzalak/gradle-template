@@ -1,4 +1,4 @@
-package io.template.app.infrastructure.repository.config
+package io.template.app.infrastructure.config
 
 import org.springframework.beans.factory.annotation.Qualifier
 import org.springframework.boot.context.properties.ConfigurationProperties

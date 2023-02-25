@@ -1,4 +1,4 @@
-package io.template.app.infrastructure.api.controller.v1
+package io.template.app.api.controller.v1
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
