@@ -6,32 +6,32 @@ Template was built with intellij IDE in mind.
 
 Contents:
 
-* Gradle
-* Groovy
-* Kotlin
-* Spock
-* Spring
-* Postgres
-* Swagger-Springdoc
+- Gradle
+- Groovy
+- Kotlin
+- Spock
+- Spring
+- Postgres
+- Swagger-Springdoc
 
 ## Postgresql Docker
 
 To run the PostgreSQL docker image:
 
 ```shell
-$ docker-compose up
+docker-compose up
 ```
 
 To manually access the db:
 
 ```shell
-$ psql --host=localhost --port 5432 --dbname=default_db --username=username
+psql --host=localhost --port 5432 --dbname=default_db --username=username
 ```
 
 or
 
 ```shell
-$ psql -h localhost -p 5432 -d default_db -U username
+psql -h localhost -p 5432 -d default_db -U username
 ```
 
 ### Warning
